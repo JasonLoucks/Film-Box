@@ -1,4 +1,4 @@
-# Film-box
+# Film-Box
 
 This is the code for The Yard's ME 138 group project, Film Box. Film Box is intended to be a 3D printed film development tank with automated agitation.
 
