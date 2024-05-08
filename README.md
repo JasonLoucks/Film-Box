@@ -19,6 +19,8 @@ Controlled using a standard IR remote:
 ### Running the code yourself
 Download all the files (Code -> Download ZIP) and extract to a location of your choosing. All five .ino files must be present inside the FilmBox folder. All required libraries can be installed from the Arduino IDE's Library Manager (Ctrl+Shift+I or Sketch -> Include Library -> Manage Libraries). Currently, the installed IRRemote library MUST be version 2.6.0 or below. The IR sensor will not work if you attempt to use the current version (4.3.1).
 
+Set up the circuit according to the diagram/photos (todo: add diagram/photos), then compile using the Arduino IDE and upload to your Arduino (currently, it has only been tested on an Uno Rev3). The program will automatically start with the Arduino.
+
 ## Todo:
 - Add hardware requirements/circuit diagram/setup photos
 - Update LiquidCrystal_I2C to current version
