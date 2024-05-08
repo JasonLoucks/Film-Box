@@ -8,6 +8,12 @@ During each run, the motor performs an agitation cycle at the top of every minut
 
 After a run ends or is canceled, the user is sent back to the main menu and all timers are reset.
 
+Controlled using a standard IR remote:
+- OK/Right: Confirm current selection
+- Left: Return to previous menu (without confirming)
+- Up: Previous menu item
+- Down: Next menu item
+
 Todo:
 - Update LiquidCrystal_I2C to current version
 - General code cleanup/optimization
