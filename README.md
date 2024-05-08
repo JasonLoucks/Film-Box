@@ -17,7 +17,7 @@ Controlled using a standard IR remote:
 - Up: Previous menu item
 - Down: Next menu item
 ### Running the code yourself
-Download all the files (Code -> Download ZIP) and extract to a location of your choosing. All five .ino files must be present inside the FilmBox folder. All required libraries can be installed from the Arduino IDE's Library Manager (Ctrl+Shift+I or Sketch -> Include Library -> Manage Libraries). Currently, the installed IRRemote library MUST be version 2.6.0 or below. The IR sensor will not work if you attempt to use the current version (4.3.1).
+Download all the files (Code -> Download ZIP or from [Releases](https://github.com/JasonLoucks/Film-Box/releases)) and extract to a location of your choosing. All five .ino files must be present inside the FilmBox folder. All required libraries can be installed from the Arduino IDE's Library Manager (Ctrl+Shift+I or Sketch -> Include Library -> Manage Libraries). Currently, the installed IRRemote library MUST be version 2.6.0 or below. The IR sensor will not work if you attempt to use the current version (4.3.1).
 
 Set up the circuit according to the diagram/photos (todo: add diagram/photos), then compile using the Arduino IDE and upload to your Arduino (currently, it has only been tested on an Uno Rev3). The program will automatically start with the Arduino.
 
